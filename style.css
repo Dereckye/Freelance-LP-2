@@ -1,0 +1,236 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/wpp_prosperity_blur.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 175vh;
+}
+
+
+/* Content */
+.content {
+    text-align: center;
+    width: 160%;
+    margin-top: 10px;
+}
+
+/* Heading 1 */
+h1 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.people-counter{
+    color: #ffd700;
+}
+
+/* Group */
+.group {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    animation: pulse 2s infinite;
+}
+
+/* Images */
+.images {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+
+/* Heading 2 */
+h2 {
+    color: #ffd700;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* P */
+p{
+    color: white;
+    margin: 20px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: #1ca44e;
+    color: #fff;
+    border: 2px solid #1ca44e;
+    padding: 10px 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #11c653;
+    color: #fff;
+    border-color: #11c653;
+    transform: scale(1.05);
+    transform: scale(1.1);
+}
+
+/* Casino Copy */
+.casino-copy {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+/* Slider */
+.slider {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    /* Add this line to center horizontally */
+}
+
+/* Slide */
+.slide {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+/* Slide Image */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.site-footer {
+    background-color: #3b3b3b1e;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-top: 49px;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #191919;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b3b3b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3b3b3b;
+}
+
+/* Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .videoplayer iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    .images {
+        height: auto;
+    }
+
+    .button {
+        font-size: 25px;
+    }
+
+    .people-counter {
+        font-size: 20px;
+    }
+
+    .casino-copy {
+        font-size: 18px;
+    }
+}
