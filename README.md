@@ -1,4 +1,4 @@
-# Prosperity Tree - Landing Page
+# Prosperity Tree - Landing Page 
 
 Welcome to the Prosperity Tree landing page! This is a basic website designed to introduce the "Prosperity Tree" brand of games. Below, you'll find information on the structure of the project, its features, and how to set it up.
 
@@ -13,7 +13,7 @@ Welcome to the Prosperity Tree landing page! This is a basic website designed to
 
 ## Overview
 
-The Prosperity Tree landing page is a simple and visually appealing website designed to showcase the brand of games. It includes a header with the game's logo, a video player, an image carousel, and a counter displaying the number of visitors to the site.
+The Prosperity Tree landing page is a simple and visually appealing website designed to showcase the brand of games. It includes a header with the game's logo, a video player, an image carousel, and a fictional counter displaying the number of visitors to the site.
 
 ## Features
 
