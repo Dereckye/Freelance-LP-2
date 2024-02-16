@@ -10,7 +10,7 @@ function updatePeopleCounter() {
   
     currentCount += incrementValue;
   
-    peopleCounterElement.innerText = `${currentCount} Pessoas entraram no grupo`;
+    peopleCounterElement.innerText = `${currentCount} People arrived at the site`;
   }
 
   setInterval(updatePeopleCounter, 2000);
